@@ -145,51 +145,30 @@ h2{
     padding-top: 1.25em;
 }
 
-.button--info1{
+.button--info{
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.button--info_red{
     background-color: #fb565a;
-    border: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #fff;
-    width: 160px;
-    height: 50px;
-    border-radius: 5px;
 }
 
-.button--info2{
+.button--info_green{
     background-color: #00ca74;
-    border: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #fff;
-    width: 160px;
-    height: 50px;
-    border-radius: 5px;
 }
 
-.button--info3{
+.button--info_yellow{
     background-color: #efc84a;
-    border: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #fff;
-    width: 160px;
-    height: 50px;
-    border-radius: 5px;
 }
 
-.button--info1:hover,
-.button--info1:focus{
-    background-color: #006ab1;
-}
-
-.button--info2:hover,
-.button--info2:focus{
-    background-color: #006ab1;
-}
-
-.button--info3:hover,
-.button--info3:focus{
+.button--info:hover,
+.button--info:focus{
     background-color: #006ab1;
 }
 
@@ -199,4 +178,86 @@ h2{
     padding-bottom: 2.1875rem;
 }
 
+hr{
+    background-color: #eeeeee;
+    border: none;
+    height: 2px; 
+}
+
 /* end info */
+
+/* star about */
+
+.ba-nerds__about{
+    display: flex;
+    justify-content: center;
+}
+
+.ba-nerds__about-left{
+    padding-top: 5em;
+    width: 60%;
+}
+
+.about--title{
+    padding-top: 0;
+    font-size: 2.8125rem;
+    text-transform: none;
+}
+
+.p-about{
+    margin: 0;
+    padding-top: 2.5em;
+    padding-bottom: 3.125em;
+}
+
+h3{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.about-left--list{
+    padding: 0;
+    margin: 0;
+}
+
+.about--item{
+    padding-top: 1.875em;
+}
+
+.about--item::before{
+    content: "\2014";
+    color: #fb565a;
+    padding-right: 0.625em;
+}
+
+.ba-nerds__about-right{
+    padding-top: 2.5em;
+    width: 40%;
+    text-align: center;
+}
+
+.image-about{
+    padding-bottom: 3.5em;
+}
+
+.about-right--list{
+    display: flex;
+    padding: 3.125em 0 0 2.5em;
+    margin: 0;
+    text-align: left;
+}
+
+.about-right--list_items{
+    font-size: 2.8125rem;
+    font-weight: bold;
+}
+
+.p_about-right{
+    font-weight: 400;
+    margin: 0;
+    padding-top: 1.25em;
+}
+
+
+/* end about */
